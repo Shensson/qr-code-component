@@ -1,12 +1,16 @@
 body{
-    background-color: hsl(212, 45%, 89%);;
+    min-height: 100vh;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+main{
+    margin-top: 100px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
-div{
-    margin-top: 100px;
+article{
     text-align: center;
     width: 300px;
     height: auto;
@@ -21,7 +25,7 @@ img{
     border-radius: 20px;
     margin-bottom: 10px;
 }
-h3{
+h1{
     font-size: 24px;
     color: hsl(218, 44%, 22%);
 }
